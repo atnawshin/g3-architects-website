@@ -11,7 +11,16 @@
 }
 
 .btn-primary {
-    
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.25rem; 
+    /* rem to pixel ->
+     20px mane 1.25 - by default 16 and tar 4 bhag er ek bhag that is 1.25rem*/
+    background: #FF900E;
+    padding: 20px 25px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
 }
 
 /* Header Styles */
@@ -66,4 +75,31 @@ nav li a {
 
 .banner-description {
     columns: #727272;
+}
+.banner img{
+    margin-top: 20px;
+width: 100%;
+}
+
+
+/* responsive media queries */
+/* Mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+
+/* Medium Devices */
+@media screen and (min-width:577px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
