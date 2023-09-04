@@ -26,7 +26,11 @@
 .text-light-gray {
     color: #727272;
 }
-
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
 /* Header Styles */
 
 header {
@@ -39,12 +43,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     /* to aline the items horizontally */
-}
-
-.nav-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #131313;
 }
 
 nav>ul {
